@@ -1,6 +1,8 @@
 main {
     font-family: 'Consolas';
-    text-align: center
+    text-align: center;
+    color:tomato;
+    background-image:repeating-radial-gradient()
 }
 
 p {
@@ -17,8 +19,8 @@ h1 {
 }
 
 img {
-    height: 215px;
-    width: 300px;
+    height: 210px;
+    width: 265px;
 }
 
 .column {
@@ -26,9 +28,19 @@ img {
     margin-right: 16px;
     margin: 10px;
     width: 25%;
+    background-image: radial-gradient();
 }
 
 .card {
     box-shadow: 0px 4px 8px 0#b3b;
     padding: 0 16px 0 16px;
 }
+
+em {
+    color:indigo
+}
+
+strong {
+    color:slateblue
+}
+
