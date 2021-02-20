@@ -3,15 +3,15 @@ require "includes/header.php"
 ?>
 
 <main>
-    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="css/signup.css">
     <div class="bg-cover">
         <div class="h-100 container center-me">
             <div class="my-auto">
                 <div class="form-signup">
 
                     <form action="includes/signup-helper.php" method="post">
-
-                    <img classg="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
+                    <h2>Register</h2>
+                    <img classg="mb-4" src="../images/icon2.png";
                             alt="" width="72" height="72">
                         <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
                         <p class="hint-text">Create your account!</p>

@@ -1,0 +1,41 @@
+.bg-cover {
+    background-image: url("../images/bg8.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat:inherit;
+
+}
+
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-signin {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 20px;
+    text-align:center
+    
+
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.d-block {
+    height: 500;
+    width: 350px;
+}
+
+.img {
+    max-width: 500px;
+    max-height: 250px;
+    margin:auto;
+}
+
