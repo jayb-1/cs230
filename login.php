@@ -2,14 +2,14 @@
 require 'includes/header.php';
 ?>
 
-<! -- up to this point will be HTML -->
+<!-- up to this point will be HTML -->
 <main> 
     <link rel="stylesheet" href="css/login.css">
 
-    <! --nice background cover -- parent class excluding main-->
+    <!--nice background cover -- parent class excluding main-->
     <div class="bg-cover">
 
-        <! --bootstrap 4 class defined/specified in bootstrap(website) carousel - different options to chose from/ cpy &
+        <!--bootstrap 4 class defined/specified in bootstrap(website) carousel - different options to chose from/ cpy &
         paste the code-->
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
