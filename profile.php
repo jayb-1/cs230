@@ -5,12 +5,14 @@ require 'includes/dbhandler.php';
 
 <main>
 <link rel="stylesheet" href="css/profile.css">
+
+
 <script>
 function triggered() { 
     //waits for a click event
     document.querySelector("#prof-image").click();
 }
-fucntion preview(e) {
+function preview(e) {
     if (e.files[0]) {
         var reader = new FileReader();
         reader.onload = function(e) {
@@ -19,7 +21,9 @@ fucntion preview(e) {
         reader.readAsDataURL(e.files[0]);
     }
 }
-<script>
+</script>
+
+
 <?php
 if(isset($_SESSION['uid'])){
     // username after login
