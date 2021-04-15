@@ -1,21 +1,18 @@
-.bg-cover {
-    background-image: url("../images/bg8.jpg");
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat; 
-}
+body {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0,1), rgb(0, 0, 0,1), transparent),url('../images/bg8.jpg')fixed ;
+    
+      
+   }
 
 .container {
    
-width: 50%;
+width: 20%;
 }
 
 .center-me {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 10px;
 }
 
 .form-signup {
@@ -38,3 +35,13 @@ h2 {
 h1 {
     color: hotpink;
 }
+.padding{
+    padding-bottom: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table-cell;
+    
+  }

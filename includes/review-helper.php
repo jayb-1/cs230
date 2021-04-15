@@ -15,6 +15,7 @@ if (isset($_POST['review-submit'])) {
     mysqli_query($conn, $sql);
 
     header("Location: ../review.php?id=$item_id");
+    
     exit();
 }
 

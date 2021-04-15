@@ -1,16 +1,23 @@
 <?php
 require "includes/header.php"
 ?>
-
+<body>
 <main>
+<div class="padding"></div>
     <link rel="stylesheet" href="css/signup.css">
-    <div class="bg-cover">
+    <div style="border:15px solid orange;background-color:black;color:white;font-size:50px;text-align:center;" class="clearfix" >
+        <img class="img2" src="../images/join.jpg" alt="" width="1920" height="441">
+        
+       JOIN US
+    </div>
+   
+    
         <div class="h-100 container center-me">
-            <div class="my-auto">
+            <div class="mx-auto">
                 <div class="form-signup">
 
                     <form action="includes/signup-helper.php" method="post">
-                    <h2>Register</h2>
+                    
                     <img classg="mb-4" src="../images/icon2.png";
                             alt="" width="72" height="72">
                         <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
@@ -41,7 +48,7 @@ require "includes/header.php"
                         <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password"
                             required>
 
-                        <button class="btn btn-lg btn-outline-primary btn-block"  name="signup-submit"type="submit">Sign in</button>
+                        <button class="btn btn-lg btn-outline-primary btn-block"  name="signup-submit"type="submit">Join Now</button>
                         <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
 
                     </form>
@@ -53,6 +60,7 @@ require "includes/header.php"
             </div>
         </div>
 
-    </div>
+    
 
 </main>
+</body>

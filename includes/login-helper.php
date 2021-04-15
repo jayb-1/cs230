@@ -50,7 +50,10 @@ if($pass_check == true) {
 }
         }
 
-}else {
+}
+
+
+else {
     header("Location: ../login.php");
      exit();
 }

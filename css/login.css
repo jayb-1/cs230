@@ -1,16 +1,13 @@
-.bg-cover {
-    background-image: url("../images/bg8.jpg");
-    
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat:inherit;
-
+body {
+ background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0,1), rgb(0, 0, 0,1), transparent),url('../images/bg8.jpg')fixed ;
+ 
+   
 }
 
 
+
 .center-me {
-    display: flex;
+    
     justify-content: center;
     padding: 40px;
 }
@@ -32,10 +29,15 @@ input {
     height: 500;
     width: 350px;
 }
-
-.img {
-    max-width: 500px;
-    max-height: 250px;
-    margin:auto;
+.container{
+    width:auto;
 }
+
+
+
+
+
+
+
+
 
